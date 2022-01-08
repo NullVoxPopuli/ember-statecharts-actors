@@ -2,6 +2,8 @@
 
 This app demonstrate how we can use [ember-statechart-component](https://github.com/NullVoxPopuli/ember-statechart-component) and XState's [actor](https://xstate.js.org/docs/guides/actors.html#actors) feature together.
 
+To begin exploring code, start at [main-page.gjs](https://github.com/NullVoxPopuli/ember-statecharts-actors/blob/main/app/components/main-page.gjs). This is the only thing rendered from the `application.hbs` template.
+
 The demo-use case:
 
 - Show a blog posts overview page
@@ -9,6 +11,10 @@ The demo-use case:
   background - while this is happening the app is still responsive
 - When a blog post's details have already been loaded this behavior won't
   retrigger
+
+
+This demo is a fork of https://github.com/LevelbossMike/ember-statecharts-actors
+which uses a different way of interacting with statecharts.
 
 ## Prerequisites
 
