@@ -1,3 +1,4 @@
+/* eslint-disable ember/routes-segments-snake-case */
 import EmberRouter from '@ember/routing/router';
 import config from 'statechart-actors/config/environment';
 
@@ -7,5 +8,5 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  this.route('post', { path: '/posts/:post_id' });
+  this.route('post', { path: '/post/:postId' });
 });

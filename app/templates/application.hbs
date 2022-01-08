@@ -1,15 +1,3 @@
-{{page-title 'StatechartActors'}}
+{{page-title 'Statecharts Actors, but with components'}}
 
-<nav class='h-12 shadow-sm'>
-  <div class='container mx-auto h-full flex items-center justify-between'>
-    <LinkTo @route='index'>Home</LinkTo>
-    <div>
-      <Providers::Posts as |provider|>
-        <span>Loading posts: {{provider.data.loadingPosts.length}}</span>
-      </Providers::Posts>
-    </div>
-  </div>
-</nav>
-<div class='container mx-auto py-2'>
-  {{outlet}}
-</div>
+<MainPage />
