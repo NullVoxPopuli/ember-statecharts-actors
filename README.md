@@ -1,6 +1,6 @@
 # statechart-actors
 
-This app demonstrate how we can use [ember-statecharts](https://ember-statecharts.com/) and XState's [actor](https://xstate.js.org/docs/guides/actors.html#actors) feature together.
+This app demonstrate how we can use [ember-statechart-component](https://github.com/NullVoxPopuli/ember-statechart-component) and XState's [actor](https://xstate.js.org/docs/guides/actors.html#actors) feature together.
 
 The demo-use case:
 
